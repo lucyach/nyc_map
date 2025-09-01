@@ -186,5 +186,5 @@ for idx, (name, lat, lon, loc_type) in enumerate(locations):
         ).add_to(m)
 
 # Save to HTML file
-m.save("nyc_boroughs_map.html")
-print("Map saved as nyc_boroughs_map.html")
+m.save("index.html")
+print("Map saved as index.html")
