@@ -179,7 +179,7 @@ icon_map = {
 
 
 for idx, (name, lat, lon, loc_type, description) in enumerate(locations):
-    color_idx = (idx - 1) // 12
+    color_idx = (idx - 1) // 14
     color = colors[color_idx] if color_idx < len(colors) else 'gray'
     icon_symbol = icon_map.get(loc_type, 'info-sign')
     popup_html = f"<div style='font-size:12px; width:300px'><b>{name}</b><br>{description}</div>"
