@@ -1,16 +1,16 @@
 import folium
 
-# Center of NYC
+# Center of NYC at Lucy's house
 nyc_center = [40.72965, -73.98651]
 
 # List of locations to mark: (name, latitude, longitude)
 locations = [
-    ("LUCYS HOUSE", 40.72965, -73.98651, "home", "yayyyyy"),
+    ("LUCYS HOUSE", 40.72965, -73.98651, "home", "Where the goat lives"),
     ("Ground Zero 9/11 Memorial & Museum", 40.71194409423603, -74.01348897367062, "museum", "Memorial open 24/7; museum free Mondays 5:30-7 with day-of reservation"),
     ("Brooklyn Flea Market", 40.702588, -73.987735, "store", "Weekend flea market every Saturday and Sunday"),
     ("The High Line", 40.7481, -74.0047, "activity", "Elevated park walk; free"),
-    ("Pepe Giallo (Italian restaurant on High Line)", 40.7442, -74.0049, "restaurant", "Italian restaurant recommended by Tejan"),
-    ("Metropolitan Museum of Art", 40.7795909308426, -73.96326546096661, "museum", "Major art museum; recommended by Tejan and Wally"),
+    ("Pepe Giallo (Italian restaurant on High Line)", 40.7442, -74.0049, "restaurant", "Italian restaurant on highline, Tejan rec"),
+    ("The MET (Metropolitan Museum of Art)", 40.7795909308426, -73.96326546096661, "museum", "Major art museum; recommended by Tejan and Wally"),
     ("MoMA (Museum of Modern Art)", 40.76325298705367, -73.96972517934122, "museum", "Modern art museum; combine with MOMA PS1 ticket; Tejan rec"),
     ("MOMA PS1 (Contemporary Art)", 40.74594278889299, -73.94716137318795, "museum", "Contemporary art; combine with MoMA ticket; Tejan rec"),
     ("Big Reuse Store", 40.67225458321197, -73.99672498478911, "store", "Reuse and salvage store; like Urban Ore; Wally rec"),
